@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='register2.css'>
+    <script src='index.js'></script>
+
+</head>
+
+<body>
+    <form name="myLogin" id="myLogin" action="/register" method="POST">
+
+        <div class="grid-container">
+            <div class="showimg">
+                <img src="img/Untitled_Artwork.png" id="showimg">
+
+            </div>
+            <div class="signin">
+                <h1>sign up</h1>
+                <br>
+                <div class=decor>
+                    <h2>sign up with</h2>
+                </div>
+                <br><br><br>
+                <div class="form-register-row">
+                    <div id="row1">
+                        <div class="namelastname">
+                            <div class="left">first name: <br><input type="text" name="firstname" value="" required>
+                            </div>
+                            <div class="right">last name: <br><input type="text" name="lastname" value="" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="row2">
+                        <div class="email-birthday">
+                            <div class="left">birthday: <br><input type="date" name="birthday" value="" required></div>
+                            <div class="right">email:<br> <input type="email" name="email" value="" required></div>
+                        </div>
+                    </div>
+                    <div id="row3">
+                        <div class="password-repassword">
+                            <div class="left">password: <br><input type="password" name="password" id="newpass" value=""
+                                    required>
+                            </div>
+                            <div class="right">retype password:<br> <input type="password" name="re_password" value=""
+                                    id="re-pass" required></div>
+                        </div>
+                    </div>
+                    <div id="row4">
+                            <div class="left">gender: 
+                                <input type="radio" id="male" name="gender" value="male">
+                                <label for="male">Male</label>
+                                <input type="radio" id="female" name="gender" value="female">
+                                <label for="female">Female</label>
+                                <input type="radio" id="other" name="gender" value="other">
+                                <label for="other">Other</label>
+                            </div>
+                            <br>
+                            <div class="right">username :<br>
+                                  <input type="text" name="username" class="username" required>
+                        </div>
+                    </div>
+                </div>
+                <span id="errordisplay"></span><br>
+                <input type="submit" value="Register" id="btn">
+                <br><br>
+                Already have an account ? you can <a href="index.html">login</a>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>

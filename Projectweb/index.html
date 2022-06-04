@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+    <script src='index.js'></script>
+</head>
+
+<body>
+
+    <form name="myLogin" id="myLogin" action="/login"method="POST">
+        <div class="grid-container">
+            <div id="navbar">
+                <h1>galovely</h1>
+            </div>
+        <div id="loginleft">
+            <div id="loginto">
+                <h3>LOG IN TO ..</h3>
+            </div>
+            <div id="IfYou">
+                <h3>if you don't have an account </h3>
+                <h4>You can <a id="register" href="register.html"> Register here!</a></h4>
+            </div>
+        </div>
+
+        <div class="Login">
+            <fieldset>
+                <p class="p1"> username : &nbsp; </p>
+                <input type="text" name="username" placeholder="username" id="username" required>
+                <br>
+                <p class="p2"> password : &nbsp; </p>
+                <input type="password" name="password" placeholder="password" id="password" required>
+                <br>
+                <input type="submit" value="login" class="btn">
+                <br>
+            </fieldset>
+        </div>
+
+
+        </div>
+    </form>
+
+</body>
+
+</html>

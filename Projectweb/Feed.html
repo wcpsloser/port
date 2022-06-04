@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='feedpost.css'>
+    <title>Feed</title>
+    <script type="text/javascript" src="feed.js"></script>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div id="navbar">
+            <div id="navbar-left">
+                <h2> <a href="Feed.html">Galovely</a></h2>
+            </div>
+            <div id="navbar-right">
+                <!-- <p><a href="#search">Search</a></p>
+                <hr> -->
+                <div class="dropdown">
+                    <h3 name="username" id="username">Username</h3>
+                    <div class="dropdown-content">
+                        <button id="btnnavbar"><a href="Profile.html">Profile</a></button>
+                        <br>
+                        <button id="btnnavbar"><a href="index.html">logout</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- profile -->
+    <div class="grid-container-Profile">
+        <div class="Profile">
+            <br>
+            <div id="displayPic"><img src="img/avatar.png" alt="Profile">
+            </div>
+            
+            <br>
+            <h2><span name="username" id="usernameprofile">Username</span></h2>
+        </div>
+
+        <div id="Post">
+            <textarea name="posting" id="textmsg" value="" placeholder="What's happening?" width="num"
+                cols="num"></textarea>
+            <br>
+            <button id="postbutton">Post</button>
+            <br><br>
+        </div>
+
+
+        <div class="item2">
+            <div id="feed-container">
+                <div class="allpost">
+                    <div class="grid-container-post">
+                        <div class="grid-container-postbox">
+                            <div id="poster">
+                                <div class="poster-box">
+                                    <div class="poster-img">
+                                        <img src="/img/lisa.jpg">
+                                    </div>
+                                    <div class="post-by">
+                                        <span>wcpsloser</span>
+                                    </div>
+                                    <div class="post-time">
+                                        <small>2022-05-18 / 02:30</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="content">
+                                <div class="content-box">
+                                    <p>content</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Reactbutton">
+                            <button type="button" class="likebutton">
+                                <div class="gridReactButton">
+                                    <img src="/img/heart.png">
+                                    
+                                    <a>0</a>
+                                </div>
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</body>
+
+</html>

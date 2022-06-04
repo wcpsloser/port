@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="Proflie.css">
+	<script type="text/javascript" src="Profile.js"></script>
+    <title>Profile</title>
+</head>
+<body>
+    <div class="profile">
+        <div class="pic-user">
+            <div class="back">
+                <a href="Feed.html">
+                    <img src= "/img/arrow-left.png" alt="" id = "picback"></a>
+            </div>
+            <div id="browsePic">
+                <div id="displayPic">
+                    <img src= "/img/user-free-icon-font.png" alt="" id = "picc">
+                </div>
+                <form action="/profilepic" method="post" id="formId" enctype="multipart/form-data">
+                    <input type="file" id="fileField" name="avatar" value="fileToUpload" placeholder="" hidden>
+                    <input type="button" class="upload" id="submitpic" value="Upload Profile Image">
+                </form>
+            </div>
+           <h2>username : <span name="username" id="username">Username</span></h2> <br>
+           <h2>email : <span name="email" id="email">email</span></h2> 
+
+        </div>
+    </div>        
+</body>
+</html>
