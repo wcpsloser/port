@@ -1,0 +1,345 @@
+body {
+    
+    /* padding: 0;*/
+	/* margin: 0;  */
+    background-image: linear-gradient(60deg, 
+    #43CBFF 0%, #9708CC 100%);
+}
+
+h2 {
+    color: black;
+    /* font-style: italic; */
+    font-family: 'Pragati Narrow';
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Pragati Narrow';
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+
+/* .line {
+    max-lines: auto;
+} */
+
+ul {
+    padding-left: 10%;
+    
+    font-family: 'Pragati Narrow';
+    font-size: 22px;
+}
+
+li {
+    
+    padding-right: 10%;
+    font-family: 'Pragati Narrow';
+    font-size: 19px;
+
+
+}
+
+.grid-container>div {
+    /* border: 0.5px solid black; */
+    font-size: 20px;
+    /* text-align: center; */
+    background-color: white;
+}
+
+#header {
+    grid-column: 1 / span 3;
+    text-align: center;
+}
+
+#main1 {
+    grid-column: 1 / span 3;
+    justify-content: center;
+    text-align: center;
+}
+
+.picmain {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.picmain1 {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#picmain1 {
+    max-width: 20%;
+}
+
+#picmain2 {
+    width: 20%;
+
+}
+
+
+#picmain4 {
+    max-width: auto;
+}
+
+.picmain4 {
+    display: flex;
+    justify-content: center;
+}
+
+#main2 {
+    grid-column: 1 / span 2;
+    text-align: center;
+}
+
+#picmain2 {
+    width: 20%;
+    text-align: center;
+    justify-content: center;
+}
+
+#right {
+    grid-column: 3 / span 1;
+    vertical-align: middle;
+    display: flex;
+    word-wrap: break-word;
+    line-height: 2.2;
+    width: auto;
+
+
+}
+
+#pic_howto {
+    grid-column: 1 / span 2;
+    text-align: center;
+}
+
+#howto {
+    grid-column: 3/ span 1;
+    vertical-align: middle;
+    display: flex;
+    word-wrap: break-word;
+    line-height: 3.2;
+    width: auto;
+
+}
+
+#pichowto {
+    max-width: 70%;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: auto; */
+}
+
+
+
+.pichowto {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+p {
+    font-size: 16pt;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+#picfooter {
+    grid-column: 1 / span 3;
+    justify-content: center;
+    text-align: center;
+}
+
+#picmain5 {
+    max-width: 50%;
+}
+
+#footer {
+    grid-column: 1 / span 3;
+
+}
+
+/*@media only screen and (max-width: 1300px) {
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        
+    }
+
+    #header {
+        grid-column: 1 / span 3;
+    }
+
+
+    #main1 {
+        grid-column: 1 / span 3;
+    }
+
+    #main2 {
+        grid-column: 1 / span 3;
+    }
+
+    #picmain4 {
+        max-width: 50%;
+    }
+
+    #right {
+        grid-column: 1 / span 3;
+    }
+
+    #pic_howto {
+        grid-column: 1 / span 3;
+    }
+
+    #howto {
+        grid-column: 1/ span 3;
+
+    }
+
+    #pichowto {
+        max-width: 50%;
+    }
+    #picfooter {
+        grid-column: 1 / span 3;
+    }
+
+    #footer {
+        grid-column: 1 / span 3;
+    }
+} */
+
+@media only screen and (max-width: 768px) {
+
+    /* .grid-container {
+	
+	border: 1px solid black;
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+		   */
+    /* } */
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto ;
+        /* grid-gap: 10px; */
+    }
+
+    #header {
+        grid-column: 1 / span 2;
+    }
+
+    #main1 {
+        grid-column: 1 / span 2;
+    }
+
+    #main2 {
+        grid-column: 1 / span 2;
+    }
+
+    #right {
+        grid-column: 1 / span 2;
+    }
+
+    #picmain4 {
+        max-width: 40%;
+    }
+
+    #pic_howto {
+        grid-column: 1 / span 2;
+    }
+
+    #howto {
+        grid-column: 1/ span 2;
+
+    }
+
+    #pichowto {
+        max-width: auto;
+    }
+    #picfooter {
+        grid-column: 1 / span 2;
+    }
+    #picmain5 {
+        max-width: 40%;
+    }
+
+    #footer {
+        grid-column: 1 / span 2;
+    }
+    li {
+        font-size: 14pt;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto;
+        /* grid-gap: 10px; */
+    }
+
+    #header {
+        grid-column: 1 / span 1;
+    }
+
+
+    #main1 {
+        grid-column: 1 / span 1;
+    }
+
+    #picmain1 {
+        width: 20%;
+    }
+
+    #main2 {
+        grid-column: 1 / span 1;
+    }
+
+    #picmain4 {
+        max-width: 50%;
+    }
+
+    #right {
+        grid-column: 1 / span 1;
+    }
+
+    #pic_howto {
+        grid-column: 1/ span 1;
+    }
+
+    #howto {
+        grid-column: 1 / span 1;
+
+    }
+
+    #pichowto {
+        max-width: 60%;
+    }
+    #picmain1 {
+        max-width: 20%;
+    }
+    .picfooter {
+
+        display: flex;
+        justify-content: center;
+    
+    }
+    #picmain5 {
+        max-width: 20%;
+    }
+
+    #footer {
+        grid-column: 1 / span 1;
+    }
+
+}

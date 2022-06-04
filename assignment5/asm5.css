@@ -1,0 +1,114 @@
+/* body{
+    background-color: #f7efe9;
+    color: rgb(0, 0, 0);
+    font-family: 'Quicksand', 'salmonkids';
+}
+.frame {
+    background-color: white;
+    width: 50%;
+}
+h1 {
+    text-align: center;
+}
+#topic1{
+    background-color: #997979 ;
+
+    font-size: 18px;
+
+    padding-left: 10%;
+
+
+}
+#comment1{
+    background-color: rgb(183, 255, 237);
+
+    font-size: 18px;
+    padding-left: 10%;
+ 
+}
+#comment2{
+    background-color: #c5b5ff;
+    padding-left: 10%;
+    font-size: 18px;
+
+}
+#text1{
+    background-color: rgb(255, 189, 189);
+    border-radius: 80px;
+    border: 5px dotted rgb(107, 25, 32);
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+    padding: 2%;
+}
+.header{
+    text-align: center;
+}
+.postbut{
+    background-color: rgb(197, 18, 87);
+}
+.clearbut{
+    background-color: rgb(146, 34, 77);
+}
+.text{
+    color: aliceblue;
+} */
+
+@import url('https://fonts.googleapis.com/css?family=Alegreya Sans SC');
+body{
+    background-color: #c3765a;  
+    text-align: center;
+    
+   
+    /* margin: 30px; */
+}
+h1{
+    font-family: 'Alegreya Sans SC';
+    color: #eedac1;
+    letter-spacing: 10px;
+}
+h2 {
+    letter-spacing: 10px;
+}
+.frame{
+    background-color: rgb(255, 255, 255); 
+    margin: 50px;
+}
+button{
+    background-color: #c3765a;  
+    border: 0;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    padding: 20px; 
+    width: 10%;
+    margin: 20px; 
+}
+textarea{
+    font-family: 'Alegreya Sans SC';
+    padding: 2.5%;
+    width: 20%;
+    border: 0;
+    background-color: #d4ae94; 
+    vertical-align: middle;
+    border-radius: 30px;
+}
+div{
+    display: inline-table;
+    background-color: rgb(255, 255, 255); 
+    width: 50%;
+    margin: auto;
+    font-family: 'Alegreya Sans SC';
+    border-radius: 30px;
+}
+#topic1,#comment1,#comment2 {
+    font-family: 'Alegreya Sans SC';
+    background-color: #d38f73;
+    padding: 30px;
+    color: #1F3044;
+    width: 40%;
+    font-size: 20pt;
+}
+#text1{
+    font-family: 'Alegreya Sans SC';
+    color: white;
+}

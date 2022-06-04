@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya Sans SC');
+
+body {
+    font-family: 'Alegreya Sans SC';
+    font-size: 22px;
+}
+
+fieldset {
+    max-width: 60%;
+    margin-left: 20%;
+    margin-top: 2%;
+    border-radius: 50px;
+    padding: 2%;
+    background-color: #af7b43;
+    color: #ede6de;
+    border: 0;
+    font-size: 24pt;
+    box-shadow: 30px 25px 3pt #deb57a;
+
+
+
+}
+
+#Require {
+    color: #311f14;
+    background-color: #deb57a;
+    font-weight: bold;
+    border-radius: 3px;
+
+}
+
+legend {
+    color: #ede6de;
+    background-color: #deb57a;
+    padding: 2%;
+    padding-left: 3%;
+    border-radius: 10px;
+    font-size: 28pt;
+    font-weight: bold;
+    width: 15%;
+    box-shadow: 10px 10px 3pt #75513a;
+}
+
+input.textbox, #btn {
+    font-family: 'Alegreya Sans SC';
+    font-size: 22px;
+    padding: 6px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 0;
+    background-color: #e1d5c8;
+    box-shadow: 10px 10px 3pt #75513a;
+
+    border-radius: 5px;
+}
+
+input[type=radio] {
+
+    width: 2%;
+    height: 1.5em;
+}
+#radio {
+    accent-color: green;
+}
+
+input#btn:hover {
+    background-color: #75513a;
+    color: #e1d5c8;
+
+}

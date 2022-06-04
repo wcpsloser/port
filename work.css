@@ -1,0 +1,1087 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya Sans SC');
+
+body {
+
+    /* padding: 0;*/
+    /* margin: 0;  */
+    /* background-image: linear-gradient(60deg, 
+      #43CBFF 0%, #9708CC 100%); */
+    background-color: #FBFCFA;
+}
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        /* width: 100%; */
+        margin-left: 5%;
+        margin-right: 5%;
+      }
+      ul {
+          display: inline;
+          vertical-align: middle;
+          list-style: none;
+          padding-left: 2rem;
+          margin-bottom: 0;
+          margin-top: 0;
+          margin-bottom: 1rem;
+      }
+      li {
+          display: inline;
+          font-size: 16pt;
+          padding-left: 2rem;
+          font-family: 'Alegreya Sans SC';
+      
+      }
+      .navbar {
+          grid-column: 1/4;
+          text-align: right;
+          padding: 2%;
+          border-bottom: 2px solid black;
+          margin-bottom: 2%;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+      }
+      
+
+hr {
+    border: 1px solid black;
+    width: 95%;
+}
+
+/* contentwork */
+
+
+
+.grid-incontain {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto 40% 40% auto;
+    grid-gap: 20px;
+    text-align: center;
+
+
+}
+
+.grid-asmm {
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+
+.Assigment {
+    grid-column: 1;
+    text-align: center;
+    color: #a6775d;
+    font-family: 'Alegreya Sans SC';
+    font-size: 14pt;
+    letter-spacing: 1pt;
+    width: 40%;
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border: 0;
+}
+
+.grid-assign {
+
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    text-align: center;
+}
+
+button.asm1 {
+    grid-column: 2;
+    background-color: white;
+    border: 0;
+    box-shadow: 0px 0px 10px 1px #b0b0b0;
+    /* font-size: 16pt;
+    letter-spacing: 1pt; */
+
+}
+
+button.asm2 {
+    grid-column: 3;
+    background-color: white;
+    border: 0;
+    box-shadow: 0px 0px 10px 1px #b0b0b0;
+    text-align: center;
+    /* font-size: 16pt;
+    letter-spacing: 1pt; */
+}
+
+button.asm3 {
+    grid-column: 2;
+    background-color: white;
+    border: 0;
+    box-shadow: 0px 0px 10px 1px #b0b0b0;
+    /* font-size: 16pt;
+    letter-spacing: 1pt; */
+}
+
+button.asm4 {
+    grid-column: 3;
+    background-color: white;
+    border: 0;
+    box-shadow: 0px 0px 10px 1px #b0b0b0;
+    /* font-size: 16pt;
+    letter-spacing: 1pt; */
+}
+
+button.processing1 {
+    grid-column: 2;
+    background-color: white;
+    border: 0;
+    box-shadow: 0px 0px 10px 1px #b0b0b0;
+    /* font-size: 16pt;
+    letter-spacing: 1pt; */
+}
+
+button.processing2 {
+    grid-column: 3;
+    background-color: white;
+    border: 0;
+    box-shadow: 0px 0px 10px 1px #b0b0b0;
+    /* font-size: 16pt;
+    letter-spacing: 1pt; */
+}
+
+#workimg {
+    width: 350px;
+}
+
+h3 {
+    font-size: 20pt;
+    font-family: 'Alegreya Sans SC';
+}
+
+#ContentHead {
+    grid-column: 4 / span 1;
+    display: block;
+    transform: rotate(90deg);
+    position: relative;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 50px;
+    color: #786e6a;
+    font-family: 'Alegreya Sans SC';
+    letter-spacing: 20px;
+    height: 10px;
+    text-align: center;
+    padding-left: 100%;
+}
+
+#contact {
+    grid-column: 2/5;
+    background-color: #f7efe9;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+
+#contact h2 {
+    font-size: 22pt;
+    font-family: 'Alegreya Sans SC';
+}
+
+.con-pic {
+    width: 25px;
+}
+
+button.asm5 {
+    grid-column: 2;
+    background-color: white;
+    border: 0;
+    box-shadow: 0px 0px 10px 1px #b0b0b0;
+    /* font-size: 16pt;
+    letter-spacing: 1pt; */
+}
+
+button.asm6 {
+    grid-column: 3;
+    background-color: white;
+    border: 0;
+    box-shadow: 0px 0px 10px 1px #b0b0b0;
+    /* font-size: 16pt;
+    letter-spacing: 1pt; */
+}
+button.asm7 {
+    grid-column: 2;
+    background-color: white;
+    border: 0;
+    box-shadow: 0px 0px 10px 1px #b0b0b0;
+    /* font-size: 16pt;
+    letter-spacing: 1pt; */
+}
+
+#videoid {
+    max-width: 500px;
+    margin: 5%;
+}
+
+.application {
+    grid-column: 2;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 10px 1px #acacac;
+    transform: scale(1.01);
+    padding: 10px;
+}
+
+/* .application:hover {
+    transform: scale(1.05);
+} */
+
+.application h3 {
+    font-family: 'Alegreya Sans SC';
+    font-size: 16pt;
+}
+
+#imgProject{
+    width: 318px;
+}
+
+.nsc {
+    grid-column: 2;
+    background-color: white;
+    box-shadow: 0px 0px 10px 1px #acacac;
+    transform: scale(1.01);
+    text-align: center;
+    padding: 10px;
+}
+
+.nsc h3 {
+    font-family: 'Alegreya Sans SC';
+    font-size: 16pt;
+}
+
+#imgnsc {
+
+    width: 250px;
+}
+
+
+@media only screen and (max-width: 1600px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 5% auto auto auto 5%;
+        grid-row-gap: 10px;
+    }
+
+    .grid-container>div {
+        /* border: 0.5px solid black; */
+        font-size: 20px;
+
+        background-color: #f7efe9;
+    }
+
+    /* header */
+
+    #navbar {
+        grid-column: 2/5;
+        float: right;
+        text-align: center;
+        display: inline;
+        background-color: #DC9C57;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 15px;
+        vertical-align: middle;
+    }
+
+    #navbar ul {
+        font-family: 'Alegreya Sans SC';
+        font-size: 20pt;
+        letter-spacing: 1pt;
+        list-style-type: none;
+        margin: 0;
+        padding-top: 10px;
+        padding-right: 20px;
+        overflow: hidden;
+        vertical-align: middle;
+
+
+    }
+
+    #navbar li {
+        float: right;
+
+    }
+
+    #navbar li a {
+        display: block;
+        color: #ffffff;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    #navbar li a:hover {
+        /* background-color: #f6c9b2; */
+        opacity: 0.7;
+        color: #a95a55;
+        text-decoration: underline;
+        border-radius: 10px;
+
+    }
+
+    hr {
+        border: 1px solid black;
+        width: 95%;
+    }
+
+    /* contentwork */
+
+
+
+    .grid-incontain {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 5% auto 5%;
+        grid-gap: 20px;
+        text-align: center;
+
+
+    }
+
+    .grid-asmm {
+        display: grid;
+        grid-template-columns: auto ;
+
+    }
+
+    .Assigment {
+        grid-column: 1;
+        text-align: center;
+        color: #a6775d;
+        font-family: 'Alegreya Sans SC';
+        font-size: 14pt;
+        letter-spacing: 1pt;
+        width: 40%;
+        border: 0;
+    }
+
+    .grid-assign {
+
+        display: grid;
+        grid-column: 3;
+        grid-template-rows: auto auto;
+        grid-row-gap: 20px;
+        grid-column-gap: 20px;
+        text-align: center;
+    }
+
+    button.asm1 {
+        grid-column: 2;
+        background-color: white;
+        border: 0;
+        box-shadow: 0px 0px 10px 1px #b0b0b0;
+        /* font-size: 16pt;
+        letter-spacing: 1pt; */
+
+    }
+
+    button.asm2 {
+        grid-column: 2;
+        background-color: white;
+        border: 0;
+        box-shadow: 0px 0px 10px 1px #b0b0b0;
+        text-align: center;
+        /* font-size: 16pt;
+        letter-spacing: 1pt; */
+    }
+
+    button.asm3 {
+        grid-column: 2;
+        background-color: white;
+        border: 0;
+        box-shadow: 0px 0px 10px 1px #b0b0b0;
+        /* font-size: 16pt;
+        letter-spacing: 1pt; */
+    }
+
+    button.asm4 {
+        grid-column: 2;
+        background-color: white;
+        border: 0;
+        box-shadow: 0px 0px 10px 1px #b0b0b0;
+        /* font-size: 16pt;
+        letter-spacing: 1pt; */
+    }
+
+    button.processing1 {
+        grid-column: 2;
+        background-color: white;
+        border: 0;
+        box-shadow: 0px 0px 10px 1px #b0b0b0;
+        /* font-size: 16pt;
+        letter-spacing: 1pt; */
+    }
+
+
+    button.processing2 {
+        grid-column: 2;
+        background-color: white;
+        border: 0;
+        box-shadow: 0px 0px 10px 1px #b0b0b0;
+        /* font-size: 16pt;
+        letter-spacing: 1pt; */
+    }
+
+    #workimg {
+        width: 250px;
+        margin: 5%;
+    }
+
+    h3 {
+        font-family: 'Alegreya Sans SC';
+    }
+
+    #ContentHead {
+        grid-column: 4 / span 1;
+        display: block;
+        transform: rotate(90deg);
+        position: relative;
+        white-space: nowrap;
+        text-align: center;
+        font-size: 50px;
+        color: #786e6a;
+        font-family: 'Alegreya Sans SC';
+        letter-spacing: 20px;
+        height: 10px;
+        text-align: center;
+        padding-left: 100%;
+    }
+
+    #contact {
+        grid-column: 2/5;
+        background-color: #f7efe9;
+        text-align: center;
+        padding-bottom: 10px;
+
+    }
+
+    #contact h2 {
+        font-size: 22pt;
+        font-family: 'Alegreya Sans SC';
+    }
+
+    .con-pic {
+        width: 25px;
+    }
+    button.asm5 {
+        grid-column: 2;
+        background-color: white;
+        border: 0;
+        box-shadow: 0px 0px 10px 1px #b0b0b0;
+        /* font-size: 16pt;
+        letter-spacing: 1pt; */
+    }
+    
+    button.asm6 {
+        grid-column: 2;
+        background-color: white;
+        border: 0;
+        box-shadow: 0px 0px 10px 1px #b0b0b0;
+        /* font-size: 16pt;
+        letter-spacing: 1pt; */
+    }
+    button.asm7 {
+        grid-column: 2;
+        background-color: white;
+        border: 0;
+        box-shadow: 0px 0px 10px 1px #b0b0b0;
+        /* font-size: 16pt;
+        letter-spacing: 1pt; */
+    }
+    
+    #videoid {
+        max-width: 500px;
+        margin: 5%;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 5% auto auto auto 5%;
+        grid-row-gap: 10px;
+    }
+
+    .grid-container>div {
+        /* border: 0.5px solid black; */
+        font-size: 20px;
+
+        background-color: #f7efe9;
+    }
+
+    /* header */
+
+    #navbar {
+        grid-column: 2/5;
+        float: right;
+        text-align: center;
+        display: inline;
+        background-color: #DC9C57;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 15px;
+        vertical-align: middle;
+    }
+
+    #navbar ul {
+        font-family: 'Alegreya Sans SC';
+        font-size: 20pt;
+        letter-spacing: 1pt;
+        list-style-type: none;
+        margin: 0;
+        padding-top: 10px;
+        padding-right: 20px;
+        overflow: hidden;
+        vertical-align: middle;
+
+
+    }
+
+    #navbar li {
+        float: right;
+
+    }
+
+    #navbar li a {
+        display: block;
+        color: #ffffff;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    #navbar li a:hover {
+        /* background-color: #f6c9b2; */
+        opacity: 0.7;
+        color: #a95a55;
+        text-decoration: underline;
+        border-radius: 10px;
+
+    }
+
+    hr {
+        border: 1px solid black;
+        width: 95%;
+    }
+
+    /* contentwork */
+
+
+
+    .grid-incontain {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 5% auto 5%;
+        grid-gap: 20px;
+        text-align: center;
+
+
+    }
+
+    .grid-asmm {
+        display: grid;
+        grid-template-columns: auto ;
+
+    }
+
+    .Assigment {
+        grid-column: 1;
+        text-align: center;
+        color: #a6775d;
+        font-family: 'Alegreya Sans SC';
+        font-size: 14pt;
+        letter-spacing: 1pt;
+        width: 40%;
+        border: 0;
+    }
+
+    .grid-assign {
+
+        display: grid;
+        grid-column: 3;
+        grid-template-rows: auto auto;
+        grid-row-gap: 20px;
+        grid-column-gap: 20px;
+        text-align: center;
+    }
+
+    button.asm1 {
+        grid-column: 2;
+        background-color: white;
+        border: 0;
+        box-shadow: 0px 0px 10px 1px #b0b0b0;
+        /* font-size: 16pt;
+        letter-spacing: 1pt; */
+
+    }
+
+    button.asm2 {
+        grid-column: 2;
+        background-color: white;
+        border: 0;
+        box-shadow: 0px 0px 10px 1px #b0b0b0;
+        text-align: center;
+        /* font-size: 16pt;
+        letter-spacing: 1pt; */
+    }
+
+    button.asm3 {
+        grid-column: 2;
+        background-color: white;
+        border: 0;
+        box-shadow: 0px 0px 10px 1px #b0b0b0;
+        /* font-size: 16pt;
+        letter-spacing: 1pt; */
+    }
+
+    button.asm4 {
+        grid-column: 2;
+        background-color: white;
+        border: 0;
+        box-shadow: 0px 0px 10px 1px #b0b0b0;
+        /* font-size: 16pt;
+        letter-spacing: 1pt; */
+    }
+
+    button.processing1 {
+        grid-column: 2;
+        background-color: white;
+        border: 0;
+        box-shadow: 0px 0px 10px 1px #b0b0b0;
+        /* font-size: 16pt;
+        letter-spacing: 1pt; */
+    }
+
+
+    button.processing2 {
+        grid-column: 2;
+        background-color: white;
+        border: 0;
+        box-shadow: 0px 0px 10px 1px #b0b0b0;
+        /* font-size: 16pt;
+        letter-spacing: 1pt; */
+    }
+
+    #workimg {
+        width: 250px;
+        margin: 5%;
+    }
+
+    h3 {
+        font-family: 'Alegreya Sans SC';
+    }
+
+    #ContentHead {
+        grid-column: 4 / span 1;
+        display: block;
+        transform: rotate(90deg);
+        position: relative;
+        white-space: nowrap;
+        text-align: center;
+        font-size: 50px;
+        color: #786e6a;
+        font-family: 'Alegreya Sans SC';
+        letter-spacing: 20px;
+        height: 10px;
+        text-align: center;
+        padding-left: 100%;
+    }
+
+    #contact {
+        grid-column: 2/5;
+        background-color: #f7efe9;
+        text-align: center;
+        padding-bottom: 10px;
+
+    }
+
+    #contact h2 {
+        font-size: 22pt;
+        font-family: 'Alegreya Sans SC';
+    }
+
+    .con-pic {
+        width: 25px;
+    }
+    button.asm5 {
+        grid-column: 2;
+        background-color: white;
+        border: 0;
+        box-shadow: 0px 0px 10px 1px #b0b0b0;
+        /* font-size: 16pt;
+        letter-spacing: 1pt; */
+    }
+    
+    button.asm6 {
+        grid-column: 2;
+        background-color: white;
+        border: 0;
+        box-shadow: 0px 0px 10px 1px #b0b0b0;
+        /* font-size: 16pt;
+        letter-spacing: 1pt; */
+    }
+    button.asm7 {
+        grid-column: 2;
+        background-color: white;
+        border: 0;
+        box-shadow: 0px 0px 10px 1px #b0b0b0;
+        /* font-size: 16pt;
+        letter-spacing: 1pt; */
+    }
+    
+    #videoid {
+        max-width: 500px;
+        margin: 5%;
+    }
+    .application {
+        grid-column: 2;
+        text-align: center;
+        background-color: white;
+        box-shadow: 0px 0px 10px 1px #acacac;
+        transform: scale(1.01);
+        padding: 10px;
+    }
+    
+    /* .application:hover {
+        transform: scale(1.05);
+    } */
+    
+    .application h3 {
+        font-family: 'Alegreya Sans SC';
+        font-size: 16pt;
+    }
+    
+    #imgProject{
+        width: 318px;
+    }
+    
+    .nsc {
+        grid-column: 2;
+        background-color: white;
+        box-shadow: 0px 0px 10px 1px #acacac;
+        transform: scale(1.01);
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .nsc h3 {
+        font-family: 'Alegreya Sans SC';
+        font-size: 16pt;
+    }
+    
+    #imgnsc {
+    
+        width: 250px;
+    }
+    
+}
+
+@media only screen and (max-width: 500px) {
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 5% auto auto auto 5%;
+        grid-row-gap: 10px;
+    }
+
+    .grid-container>div {
+        /* border: 0.5px solid black; */
+        font-size: 20px;
+
+        background-color: #f7efe9;
+    }
+
+    /* header */
+
+    #navbar {
+        grid-column: 2/5;
+        float: right;
+        text-align: center;
+        display: inline;
+        background-color: #DC9C57;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 15px;
+        vertical-align: middle;
+    }
+
+    #navbar ul {
+        font-family: 'Alegreya Sans SC';
+        font-size: 14pt;
+        letter-spacing: 1pt;
+        list-style-type: none;
+        margin: 0;
+        padding-top: 10px;
+        padding-right: 20px;
+        overflow: hidden;
+        vertical-align: middle;
+
+
+    }
+
+    #navbar li {
+        float: right;
+
+    }
+
+    #navbar li a {
+        display: block;
+        color: #ffffff;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    #navbar li a:hover {
+        /* background-color: #f6c9b2; */
+        opacity: 0.7;
+        color: #a95a55;
+        text-decoration: underline;
+        border-radius: 10px;
+
+    }
+
+    hr {
+        border: 1px solid black;
+        width: 95%;
+    }
+
+    /* contentwork */
+
+
+
+    .grid-incontain {
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: auto auto auto ;
+        grid-gap: 20px;
+        text-align: center;
+
+
+    }
+
+    .grid-asmm {
+        display: grid;
+        grid-template-columns: auto;
+
+    }
+
+    .Assigment {
+        grid-column: 1;
+        text-align: center;
+        color: #a6775d;
+        font-family: 'Alegreya Sans SC';
+        font-size: 10pt;
+        letter-spacing: 1pt;
+        width: 40%;
+        padding: 10px;
+        margin-left: 30px;
+        margin-top: 20px;
+        border: 0;
+    }
+/* 
+    .grid-assign {
+
+        display: grid;
+        grid-column: 3;
+        grid-template-rows: auto auto;
+        grid-row-gap: 20px;
+        grid-column-gap: 20px;
+        text-align: center;
+    } */
+
+    button.port {
+        grid-column: 3;
+        background-color: white;
+        border: 0;
+        box-shadow: 0px 0px 10px 1px #b0b0b0;
+        /* font-size: 16pt;
+        letter-spacing: 1pt; */
+    }
+
+    button.asm1 {
+        grid-column: 2;
+        background-color: white;
+        border: 0;
+        box-shadow: 0px 0px 10px 1px #b0b0b0;
+        /* font-size: 16pt;
+        letter-spacing: 1pt; */
+
+    }
+
+    button.asm2 {
+        grid-column: 2;
+        background-color: white;
+        border: 0;
+        box-shadow: 0px 0px 10px 1px #b0b0b0;
+        text-align: center;
+        /* font-size: 16pt;
+        letter-spacing: 1pt; */
+    }
+
+    button.asm3 {
+        grid-column: 2;
+        background-color: white;
+        border: 0;
+        box-shadow: 0px 0px 10px 1px #b0b0b0;
+        /* font-size: 16pt;
+        letter-spacing: 1pt; */
+    }
+
+    button.asm4 {
+        grid-column: 2;
+        background-color: white;
+        border: 0;
+        box-shadow: 0px 0px 10px 1px #b0b0b0;
+        /* font-size: 16pt;
+        letter-spacing: 1pt; */
+    }
+
+    button.processing1 {
+        grid-column: 2;
+        background-color: white;
+        border: 0;
+        box-shadow: 0px 0px 10px 1px #b0b0b0;
+        /* font-size: 16pt;
+        letter-spacing: 1pt; */
+    }
+
+
+    button.processing2 {
+        grid-column: 2;
+        padding: 20%;
+        background-color: white;
+        border: 0;
+        box-shadow: 0px 0px 10px 1px #b0b0b0;
+        /* font-size: 16pt;
+        letter-spacing: 1pt; */
+    }
+
+    #workimg {
+        width: 250px;
+        margin: 0;
+    }
+
+    h3 {
+        font-family: 'Alegreya Sans SC';
+    }
+
+    #ContentHead {
+        grid-column: 4 / span 1;
+        display: block;
+        transform: rotate(90deg);
+        position: relative;
+        white-space: nowrap;
+        text-align: center;
+        font-size: 50px;
+        color: #786e6a;
+        font-family: 'Alegreya Sans SC';
+        letter-spacing: 20px;
+        height: 10px;
+        text-align: center;
+        padding-left: 100%;
+    }
+
+    #contact {
+        grid-column: 2/5;
+        background-color: #f7efe9;
+        text-align: center;
+        padding-bottom: 10px;
+
+    }
+
+    #contact h2 {
+        font-size: 22pt;
+        font-family: 'Alegreya Sans SC';
+    }
+
+    .con-pic {
+        width: 25px;
+    }
+    button.asm5 {
+        grid-column: 2;
+        background-color: white;
+        border: 0;
+        box-shadow: 0px 0px 10px 1px #b0b0b0;
+        /* font-size: 16pt;
+        letter-spacing: 1pt; */
+    }
+    
+    button.asm6 {
+        grid-column: 2;
+        background-color: white;
+        border: 0;
+        box-shadow: 0px 0px 10px 1px #b0b0b0;
+        /* font-size: 16pt;
+        letter-spacing: 1pt; */
+    }
+    button.asm7 {
+        grid-column: 2;
+        background-color: white;
+        border: 0;
+        box-shadow: 0px 0px 10px 1px #b0b0b0;
+        /* font-size: 16pt;
+        letter-spacing: 1pt; */
+    }
+    
+    #videoid {
+        max-width: 200px;
+        margin: 5%;
+    }
+
+    .application {
+        grid-column: 2;
+        text-align: center;
+        background-color: white;
+        box-shadow: 0px 0px 10px 1px #acacac;
+        transform: scale(1.01);
+        padding: 10px;
+    }
+    
+    /* .application:hover {
+        transform: scale(1.05);
+    } */
+    
+    .application h3 {
+        font-family: 'Alegreya Sans SC';
+        font-size: 16pt;
+    }
+    
+    #imgProject{
+        width: 318px;
+    }
+    
+    .nsc {
+        grid-column: 2;
+        background-color: white;
+        box-shadow: 0px 0px 10px 1px #acacac;
+        transform: scale(1.01);
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .nsc h3 {
+        font-family: 'Alegreya Sans SC';
+        font-size: 16pt;
+    }
+    
+    #imgnsc {
+    
+        width: 250px;
+    }
+    
+}
+

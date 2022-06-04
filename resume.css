@@ -1,0 +1,618 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya Sans SC');
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* width: 100%; */
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  ul {
+      display: inline;
+      vertical-align: middle;
+      list-style: none;
+      padding-left: 2rem;
+      margin-bottom: 0;
+      margin-top: 0;
+      margin-bottom: 1rem;
+  }
+  li {
+      display: inline;
+      font-size: 16pt;
+      padding-left: 2rem;
+      font-family: 'Alegreya Sans SC';
+  
+  }
+  .navbar {
+      grid-column: 1/4;
+      text-align: right;
+      padding: 2%;
+      border-bottom: 2px solid black;
+      margin-bottom: 2%;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+.grid-resume {
+    margin-top: 5%;
+    grid-template-columns: 5% 30% auto auto 5%;
+    grid-gap: 20px;
+    display: grid;
+}
+
+#PhotoMee {
+    grid-column: 2;
+    text-align: center;
+}
+
+#PhotoMee img {
+    width: 65%;
+    border-radius: 20px;
+}
+
+#namesurname {
+    grid-column: 3;
+}
+
+#namesurname h1 {
+    font-family: 'Alegreya Sans SC';
+    font-size: 45pt;
+    line-height: 0.5em;
+    letter-spacing: 10px;
+}
+
+#namesurname h2 {
+    font-family: 'Alegreya Sans SC';
+    font-size: 25pt;
+    letter-spacing: 10px;
+}
+
+hr {
+    width: 70px;
+    line-height: 0.5em;
+    float: left;
+    border: 2px solid #1F3044;
+}
+
+#Edu {
+    grid-column: 2;
+    background-color: #fbede0;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+}
+
+#Edu h2 {
+    font-family: 'Alegreya Sans SC';
+    font-size: 25pt;
+    letter-spacing: 10px;
+}
+
+#Edu h4 {
+    font-family: 'Alegreya Sans SC';
+    font-size: 16pt;
+
+}
+
+#Edu p {
+    font-family: 'Alegreya Sans SC';
+    font-size: 14pt;
+
+}
+
+#skills {
+    grid-column: 3 / span 2;
+    background-color: #fbede0;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 30px;
+}
+
+#skills h2 {
+    font-family: 'Alegreya Sans SC';
+    font-size: 25pt;
+    letter-spacing: 10px;
+}
+
+#skills th {
+    width: 20%;
+    padding-bottom: 5%;
+}
+
+#skills td {
+    font-size: 15pt;
+    width: 20%;
+    text-align: center;
+    font-family: 'Alegreya Sans SC';
+    padding-bottom: 5%;
+
+}
+
+#skillsimg {
+    width: 70px;
+}
+
+#contactme {
+    grid-column: 2;
+    background-color: #fbede0;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+}
+
+#contactme h2 {
+    font-family: 'Alegreya Sans SC';
+    font-size: 25pt;
+    letter-spacing: 10px;
+}
+
+#contactme h3 {
+    font-family: 'Alegreya Sans SC';
+    font-size: 15pt;
+    line-height: 2em;
+}
+
+#contactmeimg {
+    width: 30px;
+}
+
+#experience {
+    grid-column: 3 / span 2;
+    background-color: #fbede0;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 30px;
+}
+
+#experience h2 {
+    font-family: 'Alegreya Sans SC';
+    font-size: 25pt;
+    letter-spacing: 10px;
+}
+
+#experience h4 {
+    font-family: 'Alegreya Sans SC';
+    font-size: 16pt;
+}
+
+/* ----------------------------------------------------------------------- */
+@media only screen and (max-width: 1400px) {
+    .grid-resume {
+
+        grid-template-columns: 5% auto auto auto 5%;
+        grid-gap: 20px;
+        display: grid;
+    }
+
+    #PhotoMee {
+        grid-column: 2 / span 1;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    #PhotoMee img {
+        max-width: 100%;
+        border-radius: 20px;
+    }
+
+    #namesurname {
+        grid-column: 3 / span 2;
+        padding-top: 45px;
+        padding-left: 50px;
+    }
+
+    #namesurname h1 {
+        font-family: 'Alegreya Sans SC';
+        font-size: 36pt;
+        line-height: 0.5em;
+        letter-spacing: 10px;
+    }
+
+    #namesurname h2 {
+        font-family: 'Alegreya Sans SC';
+        font-size: 25pt;
+        letter-spacing: 10px;
+    }
+
+    hr {
+        width: 70px;
+        line-height: 0.5em;
+        float: left;
+        border: 2px solid #1F3044;
+    }
+
+    #Edu {
+        grid-column: 2 / span 3;
+        background-color: #fbede0;
+        padding-left: 50px;
+        padding-bottom: 20px;
+        border-radius: 30px;
+    }
+
+    #Edu h2 {
+        font-family: 'Alegreya Sans SC';
+        font-size: 25pt;
+        letter-spacing: 10px;
+    }
+
+    #Edu h4 {
+        font-family: 'Alegreya Sans SC';
+        font-size: 16pt;
+
+    }
+
+    #Edu p {
+        font-family: 'Alegreya Sans SC';
+        font-size: 14pt;
+
+    }
+
+    #skills {
+        grid-column: 2 / span 3;
+        background-color: #fbede0;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 30px;
+    }
+
+    #skills h2 {
+        font-family: 'Alegreya Sans SC';
+        font-size: 25pt;
+        letter-spacing: 10px;
+    }
+
+    #skills th {
+        width: 20%;
+        padding-bottom: 5%;
+    }
+
+    #skills td {
+        font-size: 15pt;
+        width: 20%;
+        text-align: center;
+        font-family: 'Alegreya Sans SC';
+        padding-bottom: 5%;
+
+    }
+
+    #skillsimg {
+        width: 70px;
+    }
+
+    #contactme {
+        grid-column: 2;
+        background-color: #fbede0;
+        padding: 20px;
+        border-radius: 30px;
+    }
+
+    #contactme h2 {
+        font-family: 'Alegreya Sans SC';
+        font-size: 15pt;
+        letter-spacing: 10px;
+    }
+
+    #contactme h3 {
+        font-family: 'Alegreya Sans SC';
+        font-size: 13pt;
+        line-height: 2em;
+    }
+
+    #contactmeimg {
+        width: 30px;
+    }
+
+    #experience {
+        grid-column: 3 / span 2;
+        background-color: #fbede0;
+        border-radius: 30px;
+        padding: 20px;
+    }
+
+    #experience h2 {
+        font-family: 'Alegreya Sans SC';
+        font-size: 15pt;
+        letter-spacing: 10px;
+    }
+
+    #experience h4 {
+        font-family: 'Alegreya Sans SC';
+        font-size: 15pt;
+    }
+}
+
+
+/* ----------------------------------------------------------------------- */
+@media only screen and (max-width: 768px) {
+    .grid-resume {
+
+        grid-template-columns: 5% auto auto auto 5%;
+        grid-gap: 20px;
+        display: grid;
+    }
+
+    #PhotoMee {
+        grid-column: 2 / span 1;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    #PhotoMee img {
+        max-width: 100%;
+        border-radius: 20px;
+    }
+
+    #namesurname {
+        grid-column: 3 / span 2;
+        padding-top: 45px;
+        padding-left: 50px;
+    }
+
+    #namesurname h1 {
+        font-family: 'Alegreya Sans SC';
+        font-size: 36pt;
+        line-height: 0.5em;
+        letter-spacing: 10px;
+    }
+
+    #namesurname h2 {
+        font-family: 'Alegreya Sans SC';
+        font-size: 25pt;
+        letter-spacing: 10px;
+    }
+
+    hr {
+        width: 70px;
+        line-height: 0.5em;
+        float: left;
+        border: 2px solid #1F3044;
+    }
+
+    #Edu {
+        grid-column: 2 / span 3;
+        background-color: #fbede0;
+        padding-left: 50px;
+        padding-bottom: 20px;
+        border-radius: 30px;
+    }
+
+    #Edu h2 {
+        font-family: 'Alegreya Sans SC';
+        font-size: 25pt;
+        letter-spacing: 10px;
+    }
+
+    #Edu h4 {
+        font-family: 'Alegreya Sans SC';
+        font-size: 16pt;
+
+    }
+
+    #Edu p {
+        font-family: 'Alegreya Sans SC';
+        font-size: 14pt;
+
+    }
+
+    #skills {
+        grid-column: 2 / span 3;
+        background-color: #fbede0;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 30px;
+    }
+
+    #skills h2 {
+        font-family: 'Alegreya Sans SC';
+        font-size: 25pt;
+        letter-spacing: 10px;
+    }
+
+    #skills th {
+        width: 20%;
+        padding-bottom: 5%;
+    }
+
+    #skills td {
+        font-size: 15pt;
+        width: 20%;
+        text-align: center;
+        font-family: 'Alegreya Sans SC';
+        padding-bottom: 5%;
+
+    }
+
+    #skillsimg {
+        width: 70px;
+    }
+
+    #contactme {
+        grid-column: 2;
+        background-color: #fbede0;
+        padding: 20px;
+        border-radius: 30px;
+    }
+
+    #contactme h2 {
+        font-family: 'Alegreya Sans SC';
+        font-size: 15pt;
+        letter-spacing: 10px;
+    }
+
+    #contactme h3 {
+        font-family: 'Alegreya Sans SC';
+        font-size: 13pt;
+        line-height: 2em;
+    }
+
+    #contactmeimg {
+        width: 30px;
+    }
+
+    #experience {
+        grid-column: 3 / span 2;
+        background-color: #fbede0;
+        border-radius: 30px;
+        padding: 20px;
+    }
+
+    #experience h2 {
+        font-family: 'Alegreya Sans SC';
+        font-size: 15pt;
+        letter-spacing: 10px;
+    }
+
+    #experience h4 {
+        font-family: 'Alegreya Sans SC';
+        font-size: 15pt;
+    }
+}
+
+
+/* ----------------------------------------------------------------------- */
+@media only screen and (max-width: 500px) {
+    .grid-resume {
+
+        grid-template-columns: 5% auto auto auto 5%;
+        grid-gap: 20px;
+        display: grid;
+    }
+
+    #PhotoMee {
+        grid-column: 2 / span 1;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    #PhotoMee img {
+        max-width: 80%;
+        border-radius: 20px;
+    }
+
+    #namesurname {
+        grid-column: 2 / span 2;
+        padding-top: 45px;
+        padding-left: 50px;
+    }
+
+    #namesurname h1 {
+        font-family: 'Alegreya Sans SC';
+        font-size: 28pt;
+        line-height: 0.5em;
+        letter-spacing: 10px;
+    }
+
+    #namesurname h2 {
+        font-family: 'Alegreya Sans SC';
+        font-size: 18pt;
+        letter-spacing: 10px;
+    }
+
+    hr {
+        width: 70px;
+        line-height: 0.5em;
+        float: left;
+        border: 2px solid #1F3044;
+    }
+
+    #Edu {
+        grid-column: 2 / span 3;
+        background-color: #fbede0;
+        padding-left: 50px;
+        padding-bottom: 20px;
+        border-radius: 30px;
+    }
+
+    #Edu h2 {
+        font-family: 'Alegreya Sans SC';
+        font-size: 25pt;
+        letter-spacing: 10px;
+    }
+
+    #Edu h4 {
+        font-family: 'Alegreya Sans SC';
+        font-size: 16pt;
+
+    }
+
+    #Edu p {
+        font-family: 'Alegreya Sans SC';
+        font-size: 14pt;
+
+    }
+
+    #skills {
+        grid-column: 2 / span 3;
+        background-color: #fbede0;
+        padding-left: 25px;
+        padding-right: 25px;
+        border-radius: 30px;
+    }
+
+    #skills h2 {
+        font-family: 'Alegreya Sans SC';
+        font-size: 25pt;
+        letter-spacing: 10px;
+    }
+
+    #skills th {
+        width: 20%;
+        padding-bottom: 5%;
+    }
+
+    #skills td {
+        font-size: 10pt;
+        width: 20%;
+        text-align: center;
+        font-family: 'Alegreya Sans SC';
+        padding-bottom: 5%;
+
+    }
+
+    #skillsimg {
+        width: 40px;
+    }
+
+    #contactme {
+        grid-column: 2 / span 3;
+        background-color: #fbede0;
+        padding: 20px;
+        border-radius: 30px;
+    }
+
+    #contactme h2 {
+        font-family: 'Alegreya Sans SC';
+        font-size: 15pt;
+        letter-spacing: 10px;
+    }
+
+    #contactme h3 {
+        font-family: 'Alegreya Sans SC';
+        font-size: 14pt;
+        line-height: 2em;
+    }
+
+    #contactmeimg {
+        width: 25px;
+    }
+
+    #experience {
+        grid-column: 2 / span 3;
+        background-color: #fbede0;
+        border-radius: 30px;
+        padding: 20px;
+    }
+
+    #experience h2 {
+        font-family: 'Alegreya Sans SC';
+        font-size: 15pt;
+        letter-spacing: 10px;
+    }
+
+    #experience h4 {
+        font-family: 'Alegreya Sans SC';
+        font-size: 14pt;
+    }
+}

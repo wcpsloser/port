@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>Register</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' type='text/css' media='screen' href='main 2.css'>
+	<script src='register.js'></script>
+</head>
+<body>
+	<form name="myForm" id="myForm" action="login.html">
+		<fieldset>
+			<legend>register</legend>
+			<span id="Require">* require</span> <br>
+			<span id="errormsg"></span> <br>
+			first name*&nbsp;:&nbsp; 
+			<input type="text" name="firstname" class="textbox" required>
+			&nbsp; last name*&nbsp;: &nbsp;
+			<input type="text" name="lastname" class="textbox" required>
+			<br>
+			gender*&nbsp;: &nbsp;
+			<input type="radio" name="gender" value="male" id="radio"> &nbsp; male
+			<input type="radio" name="gender" value="female" > &nbsp; female
+			<input type="radio" name="gender" value="female" > &nbsp; other
+			<br>
+			birthday*&nbsp;: &nbsp;
+			<input type="date" name="bday" value="" class="textbox"  required>
+			<br>
+			email address*&nbsp;: &nbsp;
+			<input type="email" name="email" class="textbox"  required>
+			<br>
+			username*&nbsp;: &nbsp;
+			<input type="text" name="username"  class="textbox"  required>
+			<br>
+			password*&nbsp;: &nbsp;
+			<input type="password" name="password" id="password" class="textbox"  required>
+			<br>
+			retype password*&nbsp;: &nbsp;
+			<input type="password" name="repassword" id="repassword" class="textbox"  required>
+			<br>
+			<input type="submit" value="register"id="btn" >&nbsp; &nbsp;
+			<input type="reset" value="reset" id="btn">
+		</fieldset>
+	</form>
+</body>
+</html>
