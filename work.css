@@ -245,7 +245,7 @@ button.asm7 {
 }
 
 .nsc {
-    grid-column: 2;
+    grid-column: 3;
     background-color: white;
     box-shadow: 0px 0px 10px 1px #acacac;
     transform: scale(1.01);
