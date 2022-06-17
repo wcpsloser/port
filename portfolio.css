@@ -590,13 +590,12 @@ a {
   
   }
   .navbar {
-      grid-column: 1/4;
-      text-align: right;
-      padding: 2%;
-      border-bottom: 2px solid black;
-      margin-bottom: 2%;
+    grid-column: 1/4;
+    text-align: right;
+    padding: 5%;
+    border-bottom: 2px solid black;
+    margin-bottom: 5%;
   }
-
   .content {
     text-align: center;
     grid-column: 1;
@@ -758,11 +757,11 @@ a {
   
   }
   .navbar {
-      grid-column: 1/4;
-      text-align: right;
-      padding: 2%;
-      border-bottom: 2px solid black;
-      margin-bottom: 2%;
+    grid-column: 1/4;
+    text-align: right;
+    padding: 5%;
+    border-bottom: 2px solid black;
+    margin-bottom: 5%;
   }
 
   .content {
@@ -995,12 +994,13 @@ a {
   
   }
   .navbar {
-      grid-column: 1/4;
-      text-align: right;
-      padding: 2%;
-      border-bottom: 2px solid black;
-      margin-bottom: 2%;
+    grid-column: 1/4;
+    text-align: right;
+    padding: 5%;
+    border-bottom: 2px solid black;
+    margin-bottom: 10%;
   }
+  
 
   .content {
     text-align: center;
@@ -1094,13 +1094,13 @@ a {
   .recentwork {
     grid-column: 1/4;
     display: grid;
-    grid-template-columns: 1fr ;
+    grid-template-columns: 1fr;
     grid-column-gap: 5%;
-    grid-row-gap: 20%;
+    grid-row-gap: 10%;
     text-align: center;
     font-size: 16pt;
     background-color: #caece3;
-    padding: 10% 5% 120%;
+    padding: 10% 5% 66%;
     border-radius: 20px;
   }
   
@@ -1169,7 +1169,7 @@ a {
 
   .container2 {
     grid-column: 1;
-    margin-top: 50%;
+    margin-top: 300%;
     width: 100%;
     height: 357px;
   
@@ -1177,7 +1177,250 @@ a {
   
   .container3 {
     grid-column: 1;
-    margin-top: 30%;
+    margin-top: 300%;
+    width: 100%;
+    height: 357px;
+  
+  }
+  
+  .lines {
+    margin-left: 40%;
+    margin-top: 90%;
+  
+  }
+  
+  .dot {
+    width: 14px;
+    height: 14px;
+    background: #ee6352;
+    border-radius: 7px;
+  }
+  
+  .line {
+    height: 132px;
+    width: 2px;
+    background: #D1D6E6;
+    margin-left: 5.3px;
+  }
+
+ }
+
+ /* _____________________________________390_____________________________________________ */
+
+ @media only screen and (max-width: 390px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* width: 100%; */
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  ul {
+      display: inline;
+      vertical-align: middle;
+      list-style: none;
+      padding-left: 2rem;
+      margin-bottom: 0;
+      margin-top: 0;
+      margin-bottom: 1rem;
+  }
+  li {
+      display: inline;
+      font-size: 16pt;
+      padding-left: 2rem;
+      font-family: 'Alegreya Sans SC';
+  
+  }
+  .navbar {
+    grid-column: 1/4;
+    text-align: right;
+    padding: 5%;
+    border-bottom: 2px solid black;
+    margin-bottom: 10%;
+  }
+
+  #PhotoMee {
+      grid-column: 2 / span 2;
+      text-align: center;
+      padding-top: 20px;
+  }
+  .content {
+    text-align: center;
+    grid-column: 1/4;
+    height: 100%;
+    background-color: #caece3;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0;
+  
+  
+  }
+  #profile:hover {
+    transform: scale(1.15);
+  
+  }
+  
+  img#profile2 {
+    max-width: 200px;
+    border-radius: 50%;
+  }
+  
+  img#profile {
+    max-width: 200px;
+    border-radius: 50%;
+    margin-top: 10%;
+    margin-left: 0;
+    transition: width 2s, height 2s, transform 2s;
+  
+  }
+  
+  #profile {
+    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.307);
+  
+  }
+
+  .name {
+    grid-column: 1 / 4;
+    height: 100%;
+    background-color: #caece3;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  
+  h2 {
+    font-family: 'Alegreya Sans SC';
+    font-size: 34pt;
+  
+  }
+  
+  .aboutmepic {
+    grid-column: 1/4;
+    text-align: center;
+    background-color: #caece3;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0;
+    padding: 11% 5% 5% 5%;
+  
+  }
+  
+  .aboutme {
+    grid-column: 1/4;
+    padding: 6% 5% 5% 5%;
+  
+    background-color: #caece3;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+  
+  }
+  
+  h3 {
+    text-align: left;
+    font-family: 'Alegreya Sans SC';
+    box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.307);
+    padding: 5%;
+    border-radius: 20px;
+    width: 90%;
+    margin-left: 5%;
+    font-size: 14pt;
+    background-color: white;
+  }
+
+  h4 {
+    font-size: 14pt;
+    font-family: 'Alegreya Sans SC';
+  }
+
+  .recentwork {
+    grid-column: 1/4;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 5%;
+    grid-row-gap: 10%;
+    text-align: center;
+    font-size: 16pt;
+    background-color: #caece3;
+    padding: 10% 5% 84%;
+    border-radius: 20px;
+  }
+  
+  
+  #project {
+    border: 0;
+    border-radius: 10px;
+    max-width: 250px;
+    max-height: 250px;
+    margin-left:18%;
+    margin-left: 7%;
+    background-color: #caece3;
+  }
+  
+  #project2 {
+    border: 0;
+    border-radius: 10px;
+    max-width: 250px;
+    max-height: 550px;
+    margin-left: 7%;
+  }
+  
+  
+  #project img {
+    max-height: 250px;
+    border-radius: 10px;
+  
+  }
+  
+  #project2 p {
+    font-size: 16pt;
+  
+  }
+  
+  #project2 p:hover {
+    font-size: 24pt;
+  }
+
+  .experience {
+    grid-column: 1/4;
+    display: grid;
+    grid-template-columns: 5% 1fr ;
+    /* width: max-content; */
+    background-color: #caece3;
+    border-radius: 20px;
+  }
+  
+  .timeline {
+    grid-column: 2;
+    font-family: 'Alegreya Sans SC';
+    font-size: 14pt;
+    letter-spacing: 0.5px;
+    /* box-shadow: 0px 5px 10px 0 rgba(0, 0, 0, 0.307); */
+    padding: 5%;
+    height: 95%;
+    margin-bottom: 10%;
+  }
+  
+  .timeline2 {
+    grid-column: 2;
+    font-family: 'Alegreya Sans SC';
+    font-size: 14pt;
+    letter-spacing: 0.5px;
+    padding: 5%;
+    height: 95%;
+  }
+
+  .container2 {
+    grid-column: 1;
+    margin-top: 300%;
+    width: 100%;
+    height: 357px;
+  
+  }
+  
+  .container3 {
+    grid-column: 1;
+    margin-top: 300%;
     width: 100%;
     height: 357px;
   
